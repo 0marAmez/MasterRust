@@ -1,6 +1,5 @@
 fn main(){
-    let x = 4;
-
-    println!("x is {}",x);
-
+    for i in 0..5 {
+        println!("Hello {}", i);
+    }
 }
